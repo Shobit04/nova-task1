@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Poppins:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  cursor: url('cursor.png'), auto;
+}
+
+.cursor {
+  position: fixed;
+  height: 5vh;
+  width: 3vw;
+  object-fit: contain;
+  /* transition: all 0.3s ease-in-out; */
+  z-index: 1111111111111111111111111111112222;
+  overflow: visible;
+}
+
+/*
+ul {
+  display: flex;
+  margin-left: 12vw;
+
+}
+
+li {
+  list-style-type: none;
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+
+}*/
+
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 4%;
+  z-index: 10;
+}
+
+.navbar_djsnova {
+  height: 100%;
+  width: 125px;
+}
+
+.navbar_nav_items {
+  display: flex;
+  gap: 10px;
+  padding: 25px;
+}
+
+.djsnova_logo {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-links {
+  margin-top: 35px;
+  display: flex;
+  list-style: none;
+  padding: 0px;
+
+}
+
+.nav-items a {
+  text-decoration: none;
+  padding: 20px;
+  margin-left: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.nav-items :hover {
+  color: violet;
+}
+
+/*
+.inp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 0vw;
+  padding: 25 px;
+}*/
+
+.language_drop_down {
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.dropdown_container {
+  border: 1px solid white;
+  padding: 0.4rem;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.signin_button {
+  border: #664d4d;
+  background-color: #5e4545;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  height: 35px;
+  width: 100px;
+}
+
+.search-txtbox {
+  display: block;
+  margin-left: auto;
+  text-align: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.search-box {
+  border: none;
+  border-bottom: 1px solid #aaa;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  color: #fff;
+  width: 250px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+
+}
+
+.search-box:focus {
+  width: 400px;
+  border-color: #1f80e0;
+
+}
+
+.mains {
+  background: url("Backgnew.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero_bg_img_con {
+  width: 100%;
+  height: 100%;
+  filter: brightness(75%);
+}
+
+.astro_bg_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .hero_bg_overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+} */
+/* .card {
+  /* Add shadows to create the "card" effect */
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+} */
+
+/* On mouse-over, add a deeper shadow */
+/* .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} */
+
+/* Add some padding inside the card container */
+/* .container {
+  padding: 2px 16px;
+} */ 
+.showcase {
+  background-color: black;
+  height: 200px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -40px;
+}
+
+.box {
+  border: 2px solid salmon;
+  width: 100%;
+  max-width: calc((100% / 3) - 30px);
+  height: 100px;
+  background-color: cadetblue;
+
+.hero_card {
+  position: absolute;
+  padding-bottom: 20px;
+  top: 30%;
+  left: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero_title {
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.hero_subtitle,
+hero_desc {
+  font-weight: 400;
+  padding-bottom: 30px;
+  font-size: 1.3rem;
+}
+
+.dept_text {
+  position: absolute;
+  top: 68%;
+  left: 12%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+}
+
+.moon {
+  height: 100%;
+  width: 80px;
+}
+
+.p-links2 {
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+}
+
+.p-items1 a {
+  text-decoration: none;
+  padding: 15px;
+  margin-left: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.p-items1 a :hover {
+  color: pink;
+}
+
+.hero_text {
+
+  position: flex;
+  top: 60%;
+  left: -40%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 100px solid black;
+  padding: 10px;
+  margin: 10px;
+  text-align: right;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 45px;
+  text-align: center;
+}
+}
